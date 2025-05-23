@@ -57,5 +57,39 @@ public class Lesson2 {
                 System.out.println("Ete gumar chen stanum");
         }
 
+
+
+        int[] a = new int[10];
+        a[0] = 500;
+        a[1] = 6;
+        a[2] = 7;
+        a[3] = 8;
+        a[4] = 89;
+        a[5] = -10;
+        a[6] = 11;
+        a[7] = 12;
+        a[8] = 1300;
+        a[9] = 14;
+        // System.out.println(a[0]);
+        // System.out.println(a[0] - a[8]);
+        // System.out.println(a.length);
+        System.out.println(a[0] + a[a.length - 1]);
+
+        int[] array = {4, 1, 2, -8, 5};
+        System.out.println(array[1]);
+        System.out.println(array[array.length - 2]);
+
+        int x = 4;
+
+        if (4 >= x)
+            System.out.println("miki");
+        else
+            System.out.println("voch");
+
+        int age = 20;
+        if (age == 20)
+            System.out.println("mecaxchikes");
+
+
     }
 }
