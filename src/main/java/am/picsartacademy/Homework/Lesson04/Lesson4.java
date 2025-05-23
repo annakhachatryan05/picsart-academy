@@ -163,5 +163,75 @@ public class Lesson4 {
             System.out.println("Gnanq qaylenq ");
         } else
             System.out.println("andzrev e");
+
+        int coffetime = 18; // Srchelu jam
+        if (coffetime <= 18) {
+            System.out.println("Surchi jamanakn e");
+            System.out.println("Davit ber indz surch");
+        } else {
+            System.out.println("Aveli lav e qnem");
+
+        }
+        int hac = 0;
+        while (hac < 5) {
+            System.out.println("mikin asum e woof uzum e hac" + hac);
+            hac++;
+            System.out.println("mikin hac kerav");
+
+        }
+
+
+        int mypopox = 10;
+        int popoxakann = 3;
+        for (int day = 2; day <= mypopox; day++) {
+            System.out.println("hangsti or" + day + " gnal arshavi" + popoxakann);
+        }
+
+
+        int nutella = 0; // nutela popoxakani mecacum
+        while (nutella != 9) {
+            System.out.println("Tveq im sireli nutellan");
+            nutella++;
+        }
+
+        System.out.println("aha im nutellan");
+
+
+        String anunn = "120";
+        String azganun = "30";
+        System.out.println(anunn + azganun);
+
+
+        String sms = "15";
+        String smss = "13";
+        System.out.println(sms + smss);
+
+
+        String alo = "20";
+        String hi = "40";
+        System.out.println(alo + hi);
+
+
+        String hiBi = "Barev Bi inchpes es";
+        String bbb = " Inchpes e ancel qo ory";
+        System.out.println(hiBi + bbb);
+
+    }
+
+    int[] arev = {3, 46, 89, 1, 6, 44, 5};
+    int max = arev[0];
+
+    {
+        for (int arev : arev) {
+            if (arev > max) {
+                arev = max;
+                System.out.println("Amena Mec " + max);
+            }
+            {
+                String mycar = "23"; // Obyekti stexcum
+                String year = "2025";
+                String model = "ByD";
+                System.out.println(mycar + " - " + model); }
+        }
     }
 }
